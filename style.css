@@ -38,7 +38,7 @@ button {
     padding: 15px 80px;
     border-radius: 30px;
     border: none;
-    margin: 10px;
+    margin: 25px;
     font-size: 20px;
     font-weight: bolder;
     font-family: "Open Sans", sans-serif;
@@ -55,8 +55,12 @@ button:hover {
     margin: 40px;
 }
 .socials span {
+    display: inline-flex;
     border: 1px solid #ffffff;
-    padding: 8px 11px;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
     border-radius: 50%;
     margin: 5px;
 }
